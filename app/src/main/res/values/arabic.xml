@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <string name="basmalah">بِسْمِ اللّهِ الرَّحْمنِ الرَّحِيمِ</string>
     <string name="arabic_one">يس</string>
     <string name="arabic_two">وَالْقُرْآنِ الْحَكِيمِ
 </string>
