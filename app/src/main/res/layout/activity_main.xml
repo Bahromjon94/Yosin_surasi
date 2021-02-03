@@ -7,16 +7,30 @@
     android:background="@color/teal_200"
     tools:context=".MainActivity">
 
-   <TextView
-       android:layout_width="wrap_content"
-       android:layout_height="wrap_content"
-       app:layout_constraintTop_toTopOf="parent"
-       app:layout_constraintBottom_toBottomOf="parent"
-       app:layout_constraintStart_toStartOf="parent"
-       app:layout_constraintEnd_toEndOf="parent"
-       android:text="@string/app_name"
-       android:textColor="@color/white"
-       android:textSize="30sp"
-       android:typeface="serif"
-       android:textStyle="bold" />
+    <TextView
+        android:id="@+id/basmalah_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/islamic_calligraphic"
+        android:text="R"
+        android:textColor="@color/white"
+        android:textSize="150dp"
+        android:typeface="serif"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="YoSin"
+        android:textColor="@color/white"
+        android:textSize="32sp"
+        app:layout_constraintEnd_toEndOf="@+id/basmalah_text"
+        app:layout_constraintStart_toStartOf="@+id/basmalah_text"
+        app:layout_constraintTop_toBottomOf="@id/basmalah_text" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
